@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Blog Constitucional: Guatemala 1945 vs 1956
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un blog interactivo desarrollado en React con un estilo visual Frutiger Aero (efectos glassmorphism) que analiza y compara las constituciones guatemaltecas de 1945 y 1956. Ofrece un análisis detallado de tres aspectos constitucionales fundamentales para entender las diferencias entre estos documentos históricos.
 
-## Available Scripts
+Proyecto realizado para el curso "Guatemala en el Contexto Mundial" de la Universidad del Valle de Guatemala.
 
-In the project directory, you can run:
+![Vista previa del blog](./screenshot.png)
 
-### `npm start`
+## 🎯 Objetivos del proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Analizar y comparar algunas de las disposiciones de las constituciones de 1945 y 1956
+- Crear un blog interactivo que exponga hallazgos, reflexiones y conclusiones
+- Estudiar el impacto de cada documento en la historia de Guatemala
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Características
 
-### `npm test`
+- Análisis comparativo de tres aspectos constitucionales:
+  - Garantías Individuales
+  - Presidencia de la República
+  - Ejército
+- Línea de tiempo interactiva del período constitucional
+- Tablas comparativas
+- Diseño totalmente responsivo para adaptarse a cualquier dispositivo
+- Publicado en GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Cómo ejecutar el proyecto
 
-### `npm run build`
+### Requisitos previos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 o superior)
+- npm o yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalación y ejecución local
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clona este repositorio
+   ```bash
+   git clone https://github.com/fatupopzz/blog-constituciones.git
+   cd blog-constituciones
+   ```
 
-### `npm run eject`
+2. Instala las dependencias
+   ```bash
+   npm install
+   # o con yarn
+   yarn install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Ejecuta el servidor de desarrollo
+   ```bash
+   npm start
+   # o con yarn
+   yarn start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Estructura del proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+  ├── components/       # Componentes reutilizables
+  │   ├── pages/        # Páginas del blog
+  │   │   ├── Home.js
+  │   │   ├── GarantiasIndividuales.js
+  │   │   ├── Presidencia.js
+  │   │   ├── Ejercito.js
+  │   │   └── Conclusion.js
+  │   ├── BlogImage.js
+  │   ├── ComparisonTable.js
+  │   ├── Footer.js
+  │   ├── GlassCard.js
+  │   ├── Header.js
+  │   ├── ImagePlaceholder.js
+  │   ├── Navigation.js
+  │   └── Timeline.js
+  ├── styles/           # Archivos CSS
+  │   └── main.css
+  ├── assets/           # Recursos estáticos
+  │   └── images/       # Imágenes utilizadas
+  ├── App.js            # Componente principal
+  └── index.js          # Punto de entrada
+```
 
-## Learn More
+## 🔧 Tecnologías utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React.js
+- CSS3 con efectos modernos (glassmorphism)
+- GitHub Pages para despliegue
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📚 Fuentes de información
 
-### Code Splitting
+Este proyecto se basa en el análisis de las siguientes fuentes documentales:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Constitución revolucionaria de 1945](https://archivos.juridicas.unam.mx/www/bjv/libros/5/2210/24.pdf)
+- [Constitución contrarrevolucionaria y anticomunista de 1956](https://archivos.juridicas.unam.mx/www/bjv/libros/5/2210/25.pdf)
 
-### Analyzing the Bundle Size
+## 🌐 Despliegue
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+El blog está disponible públicamente en:
+[https://fatupopzz.github.io/blog-constituciones](https://fatupopzz.github.io/blog-constituciones)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 Licencia
 
-### Advanced Configuration
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado para el curso "Guatemala en el Contexto Mundial" - Universidad del Valle de Guatemala, 2025.
