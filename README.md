@@ -14,7 +14,6 @@ Proyecto realizado para el curso "Guatemala en el Contexto Mundial" de la Univer
 
 ## ✨ Características
 
-- Diseño Frutiger Aero con efectos glassmorphism (paneles semi-transparentes con efecto de cristal)
 - Análisis comparativo de tres aspectos constitucionales:
   - Garantías Individuales
   - Presidencia de la República
