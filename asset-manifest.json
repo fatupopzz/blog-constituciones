@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/blog-constituciones/static/css/main.6e6e842f.css",
-    "main.js": "/blog-constituciones/static/js/main.003df7b4.js",
+    "main.js": "/blog-constituciones/static/js/main.17c924e7.js",
+    "static/media/contrarevol.jpg": "/blog-constituciones/static/media/contrarevol.a02a7c74c273501e696a.jpg",
+    "static/media/ejercito.jpg": "/blog-constituciones/static/media/ejercito.41e38dcbf60620b89060.jpg",
+    "static/media/imagendemilitares.jpeg": "/blog-constituciones/static/media/imagendemilitares.c2d419638018f41621d7.jpeg",
+    "static/media/imagenrevol2.jpg": "/blog-constituciones/static/media/imagenrevol2.13ba212ffd82ad9d19e4.jpg",
+    "static/media/revolucion1944.jpg": "/blog-constituciones/static/media/revolucion1944.a33640c78ec2557ac5d2.jpg",
+    "static/media/constitucion.jpg": "/blog-constituciones/static/media/constitucion.e2350b96cfe0c9d968fb.jpg",
+    "static/media/palacionacional.jpg": "/blog-constituciones/static/media/palacionacional.85f551b534cd27cfb367.jpg",
+    "static/media/garantias-individuales.jpg": "/blog-constituciones/static/media/garantias-individuales.85fb764eb5380cd3c58b.jpg",
     "index.html": "/blog-constituciones/index.html",
     "main.6e6e842f.css.map": "/blog-constituciones/static/css/main.6e6e842f.css.map",
-    "main.003df7b4.js.map": "/blog-constituciones/static/js/main.003df7b4.js.map"
+    "main.17c924e7.js.map": "/blog-constituciones/static/js/main.17c924e7.js.map"
   },
   "entrypoints": [
     "static/css/main.6e6e842f.css",
-    "static/js/main.003df7b4.js"
+    "static/js/main.17c924e7.js"
   ]
 }
