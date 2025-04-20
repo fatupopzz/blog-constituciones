@@ -61,7 +61,7 @@ body {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--glass-border);
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
   margin-bottom: 30px;
