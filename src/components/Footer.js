@@ -4,7 +4,8 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        © 2025 Análisis Constitucional | Universidad del Valle de Guatemala
+        Hecho por: Emilio Chen, Fatima Navarro, Josue Garcia, Jose Sanchez,
+        Brian Chen y Abril.
       </p>
       <p>Curso: Guatemala en el Contexto Mundial</p>
     </footer>
