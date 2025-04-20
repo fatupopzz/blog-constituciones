@@ -66,6 +66,18 @@ function Conclusion() {
         constitucionales pueden servir mejor a las necesidades del pueblo
         guatemalteco.
       </p>
+      <p>
+        Este proyecto se basa en el análisis de las siguientes fuentes
+        documentales:
+      </p>
+      <p>
+        [Constitución revolucionaria de
+        1945](https://archivos.juridicas.unam.mx/www/bjv/libros/5/2210/24.pdf)
+      </p>
+      <p>
+        [Constitución contrarrevolucionaria y anticomunista de
+        1956](https://archivos.juridicas.unam.mx/www/bjv/libros/5/2210/25.pdf)
+      </p>
     </GlassCard>
   );
 }
