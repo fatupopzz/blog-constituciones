@@ -1,7 +1,11 @@
 import React from "react";
 import GlassCard from "../GlassCard";
-import ImagePlaceholder from "../ImagePlaceholder";
+import BlogImage from "../BlogImage";
 import Timeline from "../Timeline";
+
+import contextoImagen from "../../assets/images/revolucion1944.jpg";
+import revolimagen from "../../assets/images/imagenrevol2.jpg";
+import contrarevol from "../../assets/images/contrarevol.jpg";
 
 function Home() {
   return (
@@ -23,7 +27,11 @@ function Home() {
           anticomunismo en el contexto de la Guerra Fría.
         </p>
 
-        <ImagePlaceholder caption="Imagen: Contexto histórico de Guatemala (1944-1956)" />
+        <BlogImage
+          src={contextoImagen}
+          alt="Poblacion en 1944"
+          caption="poblacion en 1944 protestando"
+        />
       </GlassCard>
 
       <GlassCard>
@@ -40,7 +48,11 @@ function Home() {
           Democrática" en Guatemala.
         </p>
 
-        <ImagePlaceholder caption="Imagen: Revolución de 1944" />
+        <BlogImage
+          src={revolimagen}
+          alt="Poblacion protesta"
+          caption="Victoria despues de la revolucion del 44"
+        />
 
         <h3>La Contrarrevolución de 1954</h3>
         <p>
@@ -49,7 +61,11 @@ function Home() {
           revolucionario.
         </p>
 
-        <ImagePlaceholder caption="Imagen: Contrarrevolución de 1954" />
+        <BlogImage
+          src={contrarevol}
+          alt="poblacion en 1954 protestando por Árbenz"
+          caption="Poblacion queriendo derrocar a Árbenz"
+        />
       </GlassCard>
     </>
   );

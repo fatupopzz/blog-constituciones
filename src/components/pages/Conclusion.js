@@ -1,6 +1,8 @@
 import React from "react";
 import GlassCard from "../GlassCard";
-import ImagePlaceholder from "../ImagePlaceholder";
+import BlogImage from "../BlogImage";
+
+import constitucionImagen from "../../assets/images/constitucion.jpg";
 
 function Conclusion() {
   return (
@@ -36,7 +38,11 @@ function Conclusion() {
         </ul>
       </div>
 
-      <ImagePlaceholder caption="Imagen: Legado constitucional en la Guatemala actual" />
+      <BlogImage
+        src={constitucionImagen}
+        alt="constitucion"
+        caption="Gente se reune en el congreso"
+      />
 
       <h3>Influencia en el rumbo político posterior</h3>
       <p>

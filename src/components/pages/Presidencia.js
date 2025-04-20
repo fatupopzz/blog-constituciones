@@ -1,7 +1,9 @@
 import React from "react";
 import GlassCard from "../GlassCard";
 import ComparisonTable from "../ComparisonTable";
-import ImagePlaceholder from "../ImagePlaceholder";
+import BlogImage from "../BlogImage";
+
+import palacioImagen from "../../assets/images/palacionacional.jpg";
 
 function Presidencia() {
   const headers = ["Aspecto", "Constitución de 1945", "Constitución de 1956"];
@@ -37,7 +39,11 @@ function Presidencia() {
         reveladoras sobre la concepción del poder ejecutivo.
       </p>
 
-      <ImagePlaceholder caption="Imagen: El Palacio Nacional, sede del poder ejecutivo" />
+      <BlogImage
+        src={palacioImagen}
+        alt="palacio nacional"
+        caption="Imagen del palacio nacional"
+      />
 
       <ComparisonTable headers={headers} rows={rows} />
 

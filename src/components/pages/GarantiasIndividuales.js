@@ -1,7 +1,9 @@
 import React from "react";
 import GlassCard from "../GlassCard";
 import ComparisonTable from "../ComparisonTable";
-import ImagePlaceholder from "../ImagePlaceholder";
+import BlogImage from "../BlogImage";
+
+import garantiasImage from "../../assets/images/garantias-individuales.jpg";
 
 function GarantiasIndividuales() {
   const headers = ["Aspecto", "Constitución de 1945", "Constitución de 1956"];
@@ -37,7 +39,11 @@ function GarantiasIndividuales() {
 
       <ComparisonTable headers={headers} rows={rows} />
 
-      <ImagePlaceholder caption="Imagen: Derechos y garantías ciudadanas" />
+      <BlogImage
+        src={garantiasImage}
+        alt="Derechos y garantías ciudadanas"
+        caption="Se exige justicia por las garantias individuales"
+      />
 
       <h3>Análisis crítico</h3>
       <p>

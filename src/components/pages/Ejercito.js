@@ -1,7 +1,11 @@
 import React from "react";
 import GlassCard from "../GlassCard";
 import ComparisonTable from "../ComparisonTable";
-import ImagePlaceholder from "../ImagePlaceholder";
+import BlogImage from "../BlogImage";
+
+import ejercitoImagen from "../../assets/images/ejercito.jpg";
+
+import militarimagen from "../../assets/images/imagendemilitares.jpeg";
 
 function Ejercito() {
   const headers = ["Aspecto", "Constitución de 1945", "Constitución de 1956"];
@@ -34,7 +38,11 @@ function Ejercito() {
         dos concepciones distintas sobre el rol del ejército en la sociedad.
       </p>
 
-      <ImagePlaceholder caption="Imagen: Desfile militar en Guatemala, años 50" />
+      <BlogImage
+        src={ejercitoImagen}
+        alt="ejercito de guatemala"
+        caption="ejercito frente a una bandera"
+      />
 
       <ComparisonTable headers={headers} rows={rows} />
 
@@ -60,7 +68,11 @@ function Ejercito() {
         política guatemalteca durante las décadas siguientes.
       </p>
 
-      <ImagePlaceholder caption="Imagen: Impacto del militarismo en Guatemala" />
+      <BlogImage
+        src={militarimagen}
+        alt="militares en guatemala"
+        caption="se muestran los militares en guatemala"
+      />
     </GlassCard>
   );
 }
