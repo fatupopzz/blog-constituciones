@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/blog-constituciones/static/css/main.c95fcecd.css",
+    "main.css": "/blog-constituciones/static/css/main.6e6e842f.css",
     "main.js": "/blog-constituciones/static/js/main.003df7b4.js",
     "index.html": "/blog-constituciones/index.html",
-    "main.c95fcecd.css.map": "/blog-constituciones/static/css/main.c95fcecd.css.map",
+    "main.6e6e842f.css.map": "/blog-constituciones/static/css/main.6e6e842f.css.map",
     "main.003df7b4.js.map": "/blog-constituciones/static/js/main.003df7b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95fcecd.css",
+    "static/css/main.6e6e842f.css",
     "static/js/main.003df7b4.js"
   ]
 }
